@@ -1,0 +1,47 @@
+# Regras Horizontais
+
+A tag <hr> define uma quebra temática em uma página HTML. Geralmente, ela é exibida como uma linha horizontal e é utilizada para separar seções do conteúdo. Essa tag não possui fechamento.
+
+Exemplo:
+        <h1>Título 1</h1>
+        <p>Texto...</p>
+
+        <hr>
+
+        <h2>Título 2</h2>
+        <p>Texto...</p>
+
+        <hr>
+
+----
+# Quebras de Linha
+
+A tag <br> define uma quebra de linha. Ela é utilizada quando se deseja iniciar uma nova linha sem criar um novo parágrafo.
+
+Exemplo:
+        <p>Isto é <br> um parágrafo <br> com quebra de linhas.</p>
+
+> Observação:
+  Utilize <br> apenas para quebrar linhas. Para separar blocos de texto, utilize a tag <p>.
+
+---
+# Texto Pré-formatado (<pre>)
+
+A tag <pre> define um texto pré-formatado. O conteúdo dentro dessa tag é exibido exatamente como foi escrito no código HTML, preservando espaços, tabulações e quebras de linha. Além disso, normalmente é exibido em uma fonte de largura fixa (monoespaçada).
+
+Exemplo:
+        <pre>
+            Teste
+                Teste
+                    Teste
+        </pre>
+
+---
+# Resumo
+
+Tag      | Descrição
+---------|---------------------------------------------------------------
+<p>      | Define um parágrafo.
+<hr>     | Define uma quebra temática no conteúdo, geralmente exibida como uma linha horizontal.
+<br>     | Insere uma quebra de linha.
+<pre>    | Define um texto pré-formatado, preservando espaços e quebras de linha.
