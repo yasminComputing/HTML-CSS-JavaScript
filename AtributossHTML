@@ -9,7 +9,32 @@ Exemplos:
               <h1>Cabeçalho h1</h1>
               <h2>Cabeçalho h2</h2>
               <h3>Cabeçalho h3</h3>
+
+O <h1> devem ser usados para títulos principais, seguidos pelo <h2> títulos secundários. 
+
+Exemplo: 
+          <h1> - Título da página
+          <h2> - Título das seções
+          <h3> - Subseções
+
+Observação: usae títulos html apenas para títulos. Não fazer uso para deixar texto GRANDE ou em **negrito**.
 --- 
+# Títulos Maiores
+
+Cada cabeçalho HTML possui um tamanho padrão. No entanto, pode ser especificado o tamanho de qualquer cabeçalho com o **style**
+e usando font-size (propriedade CSS):
+
+Exemplo: 
+      <h1 style = "font-size: 60px;"> Cabeçalho 1 </h1>
+
+
+
+
+
+
+
+
+---
 
 # Links HTML
 
