@@ -1,0 +1,87 @@
+# Títulos HTML
+
+Os títulos (cabeçalhos) em HTML são definidos pelas tags <h1> até <h6>.
+
+A tag <h1> define o título mais importante da página, enquanto a tag <h6> define o título de menor importância.
+
+Exemplos:
+
+              <h1>Cabeçalho h1</h1>
+              <h2>Cabeçalho h2</h2>
+              <h3>Cabeçalho h3</h3>
+--- 
+
+# Links HTML
+
+Os links em HTML são definidos utilizando a tag <a>.
+
+O destino do link é especificado pelo atributo href, que contém o endereço (URL) para onde o usuário será direcionado.
+
+Exemplo:
+
+<a href="https://www.exemplo.com">Este é um link</a>
+
+Observação:
+Os atributos são utilizados para fornecer informações adicionais sobre os elementos HTML.
+
+---
+
+# Imagens HTML
+
+As imagens em HTML são definidas utilizando a tag <img>.
+
+Os principais atributos utilizados na tag <img> são:
+
+- src: especifica o caminho ou endereço da imagem.
+- alt: define um texto alternativo para a imagem.Caso a imagem não seja carregada será exibido um texto 
+alternativo. 
+- width: define a largura da imagem.
+- height: define a altura da imagem.
+
+Exemplo:
+
+<img src="imagem.png" alt="Descrição da imagem" width="104" height="142">
+
+Observação:
+
+1. URL absoluta: é um link para uma imagem externa, hospedada em outro site. Nesse caso, o endereço da imagem contém o domínio completo.
+
+   Exemplo:
+   src="https://exemplo.com/img.png"
+
+2. URL relativa: é um link para uma imagem hospedada dentro do próprio site. Nesse caso, a URL não inclui o nome do domínio.
+
+   - Se a URL começar sem uma barra (/), ela será relativa à página atual.
+
+     Exemplo:
+     src="img.png"
+
+   - Se a URL começar com uma barra (/), ela será relativa à raiz do domínio.
+
+     Exemplo:
+     src="/imagens/img.jpg"
+
+> Na maioria dos casos, é recomendado utilizar URLs relativas, pois elas não são afetadas caso o domínio do site seja alterado.
+
+-- 
+Paragráfo 
+
+O **style** é usado para adicionar estilos a um elementos, como cor, fontes, tamanho... 
+
+Exemplo: 
+        <p style = "color: red";"> Este paragráfo é vermelho. </p> 
+
+-- 
+Atributo ** lang **
+
+Dentro do <html> deve ser incluído o atributo *lang* para declarar o idioma da página Web, o que visa auxiliar os mecanismos de busca e os navegadores. 
+
+Exemplo: 
+          <!DOCTYPE html>
+        <html lang = "pt-br">
+        ...
+        </html>[
+
+-- 
+
+
