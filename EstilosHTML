@@ -1,0 +1,74 @@
+--- Estilos HTML ---
+
+# Cor de Fundo
+
+A propriedade CSS *background-color* define a cor de fundo de um elemento HTML.
+
+Exemplo: definindo a cor de fundo da página como azul-claro.
+
+        <body style="background-color: powderblue;">
+
+Exemplo: definindo cores de fundo diferentes para dois elementos.
+
+        <body>
+            <h1 style="background-color: powderblue;">Título</h1>
+            <p style="background-color: tomato;">Parágrafo</p>
+        </body>
+
+---
+
+# Cor do Texto
+
+A propriedade CSS *color* define a cor do texto de um elemento HTML.
+
+Exemplo:
+
+        <h1 style="color: blue;">Título</h1>
+        <p style="color: red;">Parágrafo</p>
+
+---
+
+# Fontes
+
+A propriedade CSS *font-family* define a fonte utilizada em um elemento HTML.
+
+Exemplo:
+
+        <h1 style="font-family: Verdana;">Título</h1>
+        <p style="font-family: Courier;">Parágrafo</p>
+
+---
+
+# Tamanho do Texto
+
+A propriedade CSS *font-size* define o tamanho do texto de um elemento HTML. O tamanho pode ser informado em porcentagem (%), pixels (px), em, rem, entre outras unidades.
+
+Exemplo:
+
+        <h1 style="font-size: 300%;">Título</h1>
+        <p style="font-size: 160%;">Parágrafo</p>
+
+---
+
+# Alinhamento de Texto
+
+A propriedade CSS *text-align* define o alinhamento horizontal do texto.
+
+Valores mais utilizados:
+
+* left    → Alinha o texto à esquerda (padrão).
+* center  → Centraliza o texto.
+* right   → Alinha o texto à direita.
+* justify → Justifica o texto, alinhando-o às margens esquerda e direita.
+
+Exemplos:
+
+        <h1 style="text-align: left;">Texto à esquerda</h1>
+
+        <h1 style="text-align: center;">Texto centralizado</h1>
+
+        <h1 style="text-align: right;">Texto à direita</h1>
+
+        <p style="text-align: justify;">
+            Este é um exemplo de texto justificado.
+        </p>
