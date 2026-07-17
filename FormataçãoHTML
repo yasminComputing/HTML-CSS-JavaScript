@@ -1,0 +1,94 @@
+# Elementos de Formatação
+
+As tags de formatação são utilizadas para destacar ou modificar a aparência e o significado de um texto em HTML.
+
+> <b>        -  Exibe o texto em **negrito**, sem indicar importância semântica.
+> <strong>   - Define um texto como **importante**, sendo exibido em negrito pela maioria dos navegadores.
+> <i>        - Exibe o texto em *itálico*, sem adicionar significado semântico.
+> <em>       -  Define um texto com *ênfase*, geralmente exibido em itálico.
+> <mark>     - Destaca o texto com uma marcação (normalmente fundo amarelo).
+> <small>    - Exibe o texto em um tamanho menor.
+> <del>      - Representa um texto que foi removido, exibindo-o com um risco no meio.
+> <ins>      - Representa um texto inserido, geralmente exibido sublinhado.
+> <sub>      - Exibe o texto em subscrito (abaixo da linha do texto).
+> <sup>      - Exibe o texto em sobrescrito (acima da linha do texto).
+
+--- 
+# Elementos de Citação e Referências
+
+Essas tags são utilizadas para criar citações, referências, abreviações e informações de autoria em documentos HTML.
+
+---
+
+## <blockquote>
+
+A tag **<blockquote>** define uma citação em bloco, geralmente utilizada para trechos retirados de outra fonte. O atributo **cite** pode ser usado para informar a URL da fonte da citação.
+
+Exemplo:
+
+        <blockquote cite="https://exemplo.com">
+            Este é um trecho retirado de outra fonte.
+        </blockquote>
+
+---
+
+## <q>
+
+A tag **<q>** define uma citação curta. O navegador normalmente adiciona aspas automaticamente.
+
+Exemplo:
+
+        <p>Ela disse: <q>O conhecimento transforma vidas.</q></p>
+
+---
+
+## <abbr>
+
+A tag **<abbr>** define uma abreviação ou sigla. O atributo **title** é utilizado para exibir o significado da abreviação quando o cursor do mouse é posicionado sobre o elemento.
+
+Exemplo:
+
+        <p><abbr title="HyperText Markup Language">HTML</abbr></p>
+
+---
+
+## <address>
+
+A tag **<address>** define as informações de contato do autor ou proprietário de um documento ou artigo.
+
+As informações podem incluir:
+- E-mail;
+- Endereço;
+- Número de telefone;
+- Redes sociais.
+
+O conteúdo da tag geralmente é exibido em itálico e os navegadores adicionam uma quebra de linha antes e depois do elemento.
+
+Exemplo:
+
+        <address>
+            João Silva<br>
+            Rua das Flores, 100<br>
+            Santa Maria - RS<br>
+            joao@email.com
+        </address>
+
+---
+
+## <cite>
+
+A tag **<cite>** define o título de uma obra, como um livro, filme, poema, música, pintura ou artigo.
+
+Exemplo:
+
+        <p><cite>Dom Casmurro</cite>, de Machado de Assis.</p>
+
+---
+
+## <bdo>
+
+A tag **<bdo>** (Bi-Directional Override) substitui a direção padrão do texto, permitindo exibi-lo da esquerda para a direita (**ltr**) ou da direita para a esquerda (**rtl**).
+
+Exemplo:
+
+        <bdo dir="rtl">Texto invertido</bdo>
