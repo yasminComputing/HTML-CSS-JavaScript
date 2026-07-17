@@ -45,8 +45,8 @@ A propriedade CSS *font-size* define o tamanho do texto de um elemento HTML. O t
 
 Exemplo:
 
-        <h1 style="font-size: 300%;">Título</h1>
-        <p style="font-size: 160%;">Parágrafo</p>
+        <h1 style="font-size: 300px;">Título</h1>
+        <p style="font-size: 160%px">Parágrafo</p>
 
 ---
 
@@ -72,3 +72,14 @@ Exemplos:
         <p style="text-align: justify;">
             Este é um exemplo de texto justificado.
         </p>
+
+
+-- 
+Usar mais de um elemento: 
+                <h1 style = "color:blue;font-family:verdana;">Welcome to My Page</h1> 
+                <p style="text-align:center;font-size:20px%;">This is a styled paragraph.</p>
+        
+
+
+
+
